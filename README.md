@@ -1,24 +1,27 @@
+# Grove Bit Kit micro:car MakeCode Extension
 
-> Open this page at [https://mrchrisbond.github.io/pxt-grove-bit-kit-microcar/](https://mrchrisbond.github.io/pxt-grove-bit-kit-microcar/)
+Extra MakeCode blocks for the Grove Bit Kit micro:car.
 
-## Use as Extension
+## Confirmed pins
 
-This repository can be added as an **extension** in MakeCode.
+- Buzzer: P0
+- Four RGB LEDs: P1
+- LED type: NeoPixel-style strip
+- Number of LEDs: 4
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/mrchrisbond/pxt-grove-bit-kit-microcar** and import
+## Blocks included
 
-## Edit this project
+### LEDs
 
-To edit this repository in MakeCode.
+- set all LEDs to colour
+- set one LED to colour
+- set all LEDs using RGB values
+- set one LED using RGB values
+- set LED brightness
+- turn off LEDs
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/mrchrisbond/pxt-grove-bit-kit-microcar** and click import
+### Buzzer
 
-#### Metadata (used for search, rendering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+- play buzzer tone
+- play success sound
+- play error sound

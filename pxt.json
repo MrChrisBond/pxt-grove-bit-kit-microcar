@@ -1,16 +1,16 @@
 {
     "name": "pxt-grove-bit-kit-microcar",
-    "version": "0.0.0",
-    "description": "",
+    "version": "0.0.1",
+    "description": "LED and buzzer blocks for the Grove Bit Kit micro:car",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
-        "radio": "*",
+        "neopixel": "github:microsoft/pxt-neopixel",
         "microphone": "*"
     },
     "files": [
-        "README.md",
-        "main.blocks",
-        "main.ts"
+        "main.ts",
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
@@ -23,5 +23,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
