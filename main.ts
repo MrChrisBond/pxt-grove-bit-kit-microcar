@@ -31,7 +31,7 @@ enum MicroCarColour {
 /**
  * LED and buzzer controls for the Grove Bit Kit micro:car.
  */
-//% color="#1E90FF" weight=100 icon="\uf1b9" block="micro:car"
+//% color="#1E90FF" weight=100 icon="\uf1b9" block="MicroCar LEDs"
 namespace MicroCar {
     let strip: neopixel.Strip = null
     let initialised = false
